@@ -1,0 +1,30 @@
+/*root is used to declaring the global css variables */
+@import "@fontsource/shantell-sans";
+@import "@fontsource/comfortaa";
+:root {
+  /* colors */
+  --color-text: #a0d2eb;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #5c3882;
+  --color-box: rgba(106, 8, 117, 0.603);
+  --color-border: rgba(115, 218, 255, 0.396);
+  --color-blur: rgba(162, 91, 228, 0.7);
+
+  /*fonts*/
+  --font-Shantell: "Shantell-sans";
+  --font-Comfortaa: "Comfortaa";
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../node_modules/@fontsource/comfortaa/files/comfortaa-cyrillic-500-normal.woff2")
+    format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Shantell-sans";
+  src: url("../node_modules/@fontsource/shantell-sans/files/shantell-sans-cyrillic-500-normal.woff2")
+    format("woff2");
+  font-weight: 600;
+}

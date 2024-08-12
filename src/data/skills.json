@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Programming Languages",
+    "items": [
+      { "name": "Java", "image": "java.png" },
+      { "name": "C++", "image": "c++.png" },
+      { "name": "C", "image": "c.png" },
+      { "name": "JavaScript", "image": "javascript.png" },
+      { "name": "Node.js", "image": "node.png" },
+      { "name": "HTML", "image": "html.png" },
+      { "name": "CSS", "image": "css.png" },
+      { "name": "JSP", "image": "jsp.png" },
+      { "name": "Swift", "image": "swift.png" }
+    ]
+  },
+  {
+    "title": "Frameworks",
+    "items": [
+      { "name": "React", "image": "react.png" },
+      { "name": "Jenkins", "image": "jenkins.png" }
+    ]
+  },
+  {
+    "title": "Data/Databases",
+    "items": [
+      { "name": "SQL", "image": "sql.png" },
+      { "name": "MongoDB", "image": "mongodb.png" },
+      { "name": "Oracle", "image": "oracle.png" }
+    ]
+  },
+  {
+    "title": "Cloud/Technologies",
+    "items": [
+      { "name": "AWS", "image": "aws.png" },
+      { "name": "Docker", "image": "docker.png" },
+      { "name": "Kali Linux", "image": "kali.png" },
+      { "name": "Git", "image": "git.png" }
+    ]
+  },
+  {
+    "title": "Methodologies",
+    "items": [
+      { "name": "Agile Scrum", "image": "agile.png" },
+      { "name": "CI/CD", "image": "ci.png" }
+    ]
+  }
+]

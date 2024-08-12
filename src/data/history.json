@@ -1,0 +1,28 @@
+[
+  {
+    "school": "San Jose State University",
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "gpa": "3.69"
+  },
+  {
+    "honor": ["Cum Laude", "President's Scholar Award", "Dean's Scholar Award"]
+  },
+  {
+    "courses": [
+      "Computer Networks",
+      "Data Structures and Algorithms",
+      "Object Oriented Design",
+      "Intro to Computer Systems",
+      "iOS Development",
+      "Android Development",
+      "Computer Architecture",
+      "Intro to Database Management System",
+      "Operating Systems",
+      "Programming Paradigms",
+      "Information Security",
+      "Technical Writing",
+      "NoSQL Database System"
+    ]
+  }
+]

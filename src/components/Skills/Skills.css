@@ -1,0 +1,91 @@
+.skillContainer {
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.skillTitle {
+  font-family: var(--font-shantell);
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-line: underline;
+  text-underline-offset: 50%;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: var(--color-box);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 5px 10px 30px var(--color-border);
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 2; /* Allows more space for categories */
+}
+
+.cartoonContainer {
+  flex: 1; /* Takes up remaining space on the right */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartoonImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  top: 50%;
+}
+
+.categoryTitle {
+  font-family: var(--font-shantell);
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skillItem {
+  width: calc(100% / 6 - 30px); /* Calculate width for six items with a gap */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.skillImage {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .categories,
+  .cartoonContainer {
+    flex: none;
+    width: 100%;
+  }
+}

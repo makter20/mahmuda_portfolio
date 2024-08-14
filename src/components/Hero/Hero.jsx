@@ -1,7 +1,10 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import heroImg from "../../assets/Hero/heroImage.png";
+import profilePic from "../../assets/Hero/heroImage1.png";
 import "./Hero.css";
+import github from "../../assets/SocialIcon/github.png";
+import linkedin from "../../assets/SocialIcon/linkedin.png";
 export default function Hero() {
   const titleList = ["Mahmuda", "Keen Learner", "Hardworking"];
   return (
@@ -20,14 +23,27 @@ export default function Hero() {
           />
         </h1>
         <p className="description">
-          I am a new grad full stack developer. I am looking for a full time
-          position.
+          I'm a full-stack developer excited to bring my skills to a full-time
+          role. Ready to create and contribute to meaningful projects.
         </p>
-        <a className="contactBtn" href="mailto:mahmudasaba@gmail.com">
-          Contact Me
-        </a>
+        <div className="social">
+          <a
+            href="https://github.com/makter20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="social-icon" src={github} alt="GitHub" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mahmuda-akter-software-developer/ "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="social-icon" src={linkedin} alt="LinkedIn" />
+          </a>
+        </div>
       </div>
-      <img className="heroImg" src={heroImg} alt="Hero image" />
+      <img className="heroImg" src={profilePic} alt="Hero image" />
       <div className="topBlur" />
       <div className="bottomBlur" />
     </section>

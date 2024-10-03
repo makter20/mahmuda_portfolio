@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "images/tcp_project.png",
+    "title": "TCP Sliding Window Implementation",
+    "description": "Developed a client-server application using Java Sockets, implemented the three-way handshake, and improved data transmission efficiency by 50%.",
+    "githubLink": "https://rb.gy/vwbdjk"
+  },
+  {
+    "id": 2,
+    "image": "images/wordle_game.png",
+    "title": "Wordle Game",
+    "description": "Built a Wordle game in React, improved code reusability by creating a dynamic color-changing grid, and collaborated in an Agile team.",
+    "githubLink": "https://rb.gy/vwbdjk"
+  },
+  {
+    "id": 3,
+    "image": "/skill-img1.png",
+    "title": "Flight Management System",
+    "description": "Led a team to create a full-stack flight management system, enhanced user experience, and increased process efficiency by 30%.",
+    "githubLink": "https://rb.gy/nv9muf"
+  }
+]

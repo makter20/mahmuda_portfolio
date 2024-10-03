@@ -1,8 +1,5 @@
 .skillContainer {
-  padding: 30px;
   margin-top: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
   color: var(--color-text);
 }
 
@@ -25,8 +22,10 @@
   margin-top: 30px;
   background-color: var(--color-box);
   border-radius: 15px;
-  padding: 20px;
+  padding: 60px;
   box-shadow: 5px 10px 30px var(--color-border);
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .categories {

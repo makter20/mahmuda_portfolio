@@ -1,0 +1,100 @@
+@import "../../variables.css";
+.projectSection {
+  margin-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden; /* To prevent scroll overflow */
+}
+
+.imageContainer img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.textContainer {
+  flex: 2;
+  transition: transform 0.4s ease;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+.textContainer a button {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: var(--color-bg);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Progress Bar */
+.portfolio .progress {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.portfolio .progress h1 {
+  color: var(--color-text);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.projectWrapper {
+  background-color: var(--color-box);
+  border-radius: 15px;
+  box-shadow: 5px 10px 30px var(--color-border);
+  padding: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.progressBar {
+  height: 5px;
+  margin-top: 5px;
+  background-color: var(--color-text);
+  transform-origin: 50;
+  width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imageContainer img {
+    max-width: 100%;
+  }
+
+  .textContainer {
+    margin-top: 20px;
+  }
+}

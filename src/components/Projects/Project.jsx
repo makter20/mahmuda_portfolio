@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import "./Projects.css";
+import importAll from "../../utils";
+const images = importAll(
+  require.context("../../assets/Projects", false, /\.(png|jpe?g|svg)$/)
+);
 
 const Project = ({ project }) => {
   const ref = useRef(); // For tracking scroll position
@@ -10,16 +14,16 @@ const Project = ({ project }) => {
     target: ref,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  const x = useTransform(scrollYProgress, [0, 1], [-200, 200]);
 
   return (
     <section ref={ref} className="projectSection">
       <div className="container">
         <div className="wrapper">
           <motion.div className="imageContainer" style={{ x }}>
-            <img src={project.image} alt={project.title} />
+            <img src={images[project.image]} alt={project.title} />
           </motion.div>
-          <motion.div className="textContainer" style={{ x }}>
+          <motion.div className="projectTextContainer" style={{ x }}>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             <a

@@ -61,7 +61,7 @@
   min-width: 350px;
   min-height: 250px;
   top: 246px;
-  right: -10vw;
+  right: 0vw;
   border-radius: 764px;
   background: var(--color-blur);
   filter: blur(100px);

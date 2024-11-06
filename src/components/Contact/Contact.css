@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 3rem;
+  padding: 3%;
 }
 
 form {
@@ -63,22 +63,7 @@ textarea:focus {
   transform: translateY(-2px);
   transition: background-color 0.3s, transform 0.3s;
 }
-/* @media (max-width: 1024px) {
-  .textContainer {
-    padding: 5rem;
-    font-size: 1rem;
-  }
-
-  .textContainer h1 {
-    font-size: 2.5rem;
-  }
-
-  .formContainer {
-    padding: 2rem;
-  }
-} */
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .textContainer {
     padding: 3rem;
     font-size: 0.9rem;
@@ -94,7 +79,7 @@ textarea:focus {
   }
 
   .formContainer {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   form {
@@ -102,7 +87,7 @@ textarea:focus {
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .contact {
     flex-direction: column;
   }

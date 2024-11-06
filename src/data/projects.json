@@ -19,5 +19,12 @@
     "title": "Flight Management System",
     "description": "Led a team to create a full-stack flight management system, enhanced user experience, and increased process efficiency by 30%.",
     "githubLink": "https://rb.gy/nv9muf"
+  },
+  {
+    "id": 4,
+    "image": "portfolio.png",
+    "title": "Responsive Portfolio Website",
+    "description": "Built a responsive portfolio using React, JavaScript, and CSS, featuring reusable components, scroll-triggered animations using motion framer, and dynamic styling for a clean, engaging user experience across all devices.",
+    "githubLink": "https://github.com/makter20/mahmuda_portfolio"
   }
 ]

@@ -14,28 +14,20 @@ const Project = ({ project }) => {
     target: ref,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], [-200, 200]);
+  const x = useTransform(scrollYProgress, [0, 1], [-100, 100]);
 
   return (
-    <section ref={ref} className="projectSection">
-      <div className="container">
-        <div className="wrapper">
-          <motion.div className="imageContainer" style={{ x }}>
-            <img src={images[project.image]} alt={project.title} />
-          </motion.div>
-          <motion.div className="projectTextContainer" style={{ x }}>
-            <h2>{project.title}</h2>
-            <p>{project.description}</p>
-            <a
-              href={project.githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>View on GitHub</button>
-            </a>
-          </motion.div>
-        </div>
-      </div>
+    <section ref={ref} className="wrapper">
+      <motion.div className="imageContainer" style={{ x }}>
+        <img src={images[project.image]} alt={project.title} />
+      </motion.div>
+      <motion.div className="projectTextContainer" style={{ x }}>
+        <h2>{project.title}</h2>
+        <p>{project.description}</p>
+        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+          <button>View on GitHub</button>
+        </a>
+      </motion.div>
     </section>
   );
 };

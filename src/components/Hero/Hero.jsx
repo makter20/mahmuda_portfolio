@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import heroImg from "../../assets/Hero/heroImage.png";
 import profilePic from "../../assets/Hero/heroImage1.png";
 import "./Hero.css";
 import github from "../../assets/SocialIcon/github.png";

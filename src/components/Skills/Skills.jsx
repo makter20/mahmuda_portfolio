@@ -10,7 +10,7 @@ const images = importAll(
 export default function Skills() {
   return (
     <section className="skillContainer" id="skills">
-      <h2 className="skillTitle">Skills</h2>
+      <h2 className="title">Skills</h2>
       <div className="contentContainer">
         <div className="categories">
           {skill.map((category, id) => (
@@ -18,14 +18,16 @@ export default function Skills() {
               <h3 className="categoryTitle">{category.title}</h3>
               <ul className="skillsList">
                 {category.items.map((item, idx) => (
-                  <li className="skillItem" key={idx}>
-                    <img
-                      src={images[item.image]}
-                      alt={item.name}
-                      className="skillImage"
-                    />
-                    <p>{item.name}</p>
-                  </li>
+                  <div className="itemDiv">
+                    <li className="skillItem" key={idx}>
+                      <img
+                        src={images[item.image]}
+                        alt={item.name}
+                        className="skillImage"
+                      />
+                      <p>{item.name}</p>
+                    </li>
+                  </div>
                 ))}
               </ul>
             </div>

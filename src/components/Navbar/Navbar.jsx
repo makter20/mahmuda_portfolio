@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { getImageUrl } from "../../utils";
 import menu from "../../assets/nav/hamMenu.png";
 import close from "../../assets/nav/close.png";
 
@@ -8,9 +7,6 @@ export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
   return (
     <nav className="navbar">
-      <a className="navTitle" href="/">
-        Home
-      </a>
       <div className="menu">
         <img
           className="menuBtn"

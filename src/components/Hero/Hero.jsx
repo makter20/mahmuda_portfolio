@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
         <p className="description">
           I'm a full-stack developer excited to bring my skills to a full-time
-          role. Ready to create and contribute to meaningful projects.
+          role. I am thrilled to create and contribute to meaningful projects.
         </p>
         <div className="social">
           <a

@@ -6,7 +6,7 @@ import ContactIcon from "./ContactIcon";
 
 const variants = {
   initial: {
-    x: -500,
+    x: -100,
     opacity: 0,
   },
   animate: {

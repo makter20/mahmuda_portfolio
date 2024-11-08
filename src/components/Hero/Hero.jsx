@@ -4,6 +4,7 @@ import profilePic from "../../assets/Hero/heroImage1.png";
 import "./Hero.css";
 import github from "../../assets/SocialIcon/github.png";
 import linkedin from "../../assets/SocialIcon/linkedin.png";
+import resumeIcon from "../../assets/SocialIcon/resumeIcon.png";
 export default function Hero() {
   const titleList = ["Mahmuda", "Keen Learner", "Hardworking"];
   return (
@@ -39,6 +40,9 @@ export default function Hero() {
             rel="noopener noreferrer"
           >
             <img className="social-icon" src={linkedin} alt="LinkedIn" />
+          </a>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <img className="social-icon" src={resumeIcon} alt="Resume" />
           </a>
         </div>
       </div>

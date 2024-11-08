@@ -68,7 +68,7 @@
   }
 
   .itemDescription p {
-    font-size: 0.7;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -82,11 +82,11 @@
     padding-right: 10%;
   }
   .itemDescription h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .itemDescription p {
-    font-size: 0.9;
+    font-size: 1rem;
   }
   .aboutContent {
     padding: 30px;
